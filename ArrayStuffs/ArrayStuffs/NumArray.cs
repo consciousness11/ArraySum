@@ -14,5 +14,12 @@ namespace ArrayStuffs
             Console.WriteLine("Sum of array is  " + total);
 
         }
+        public void productArray(int[] array)
+        {
+            int result = 1;
+            for (int i = 0; i < array.Length; i++)
+                result = result * array[i];
+            Console.WriteLine("Product of array is  " + result);
+        }
     }
 }
